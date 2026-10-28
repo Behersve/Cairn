@@ -105,3 +105,7 @@ python evaluate.py --data TN15 --checkpoint runs/TN15/checkpoint.pth
 ```
 
 The model is trained once under point missingness (rate 0.5) and evaluated without retraining under point missingness (rates 0.2, 0.4, 0.6, 0.8), block, subsequence and mixed missingness. Results are written to `runs/<data>/results.json`.
+
+## Results
+
+Standard deviations of all reported results are given in [results/standard_deviations.md](results/standard_deviations.md), with CSV versions in [results/sd_main_results.csv](results/sd_main_results.csv) and [results/sd_ablation.csv](results/sd_ablation.csv).

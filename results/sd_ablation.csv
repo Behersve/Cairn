@@ -1,0 +1,11 @@
+group,variant,TN15,TT60,XP60,HH60,NZUT,PSMH,Avg.
+Component,Backbone only,0.001,0.010,0.020,0.004,0.051,0.009,0.009
+Component,w/o MAA,0.002,0.007,0.016,0.001,0.024,0.007,0.003
+Component,w/o MCE and CPF,0.002,0.019,0.020,0.000,0.025,0.002,0.004
+Component,Cairn (Ours),0.001,0.005,0.003,0.001,0.007,0.002,0.001
+Individual,w/o anchoring (MAA),0.002,0.009,0.017,0.001,0.017,0.004,0.004
+Individual,w/o screening (MCE),0.005,0.014,0.007,0.002,0.032,0.006,0.007
+Individual,w/o calibration (CPF),0.002,0.007,0.015,0.003,0.022,0.004,0.004
+Individual,w/ learned gating (CPF),0.004,0.010,0.006,0.001,0.013,0.008,0.003
+Individual,w/o variogram (CPF),0.001,0.005,0.003,0.004,0.008,0.012,0.004
+Individual,w/ prior (CPF),0.005,0.009,0.006,0.001,0.022,0.005,0.004
