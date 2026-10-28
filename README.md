@@ -1,5 +1,10 @@
 # Cairn: Observation-Anchored Fusion for Multivariate Time-Series Imputation
 
+## Results
+
+- [Full results](results/main_results_full.md): MSE / MAE for all datasets, missingness patterns, and point-wise missingness rates.
+- [Standard deviations](results/standard_deviations.md): SDs over five runs for the results in Tables 2 and 3 of the paper.
+
 ## Environment
 
 ```bash
@@ -105,9 +110,3 @@ python evaluate.py --data TN15 --checkpoint runs/TN15/checkpoint.pth
 ```
 
 The model is trained once under point missingness (rate 0.5) and evaluated without retraining under point missingness (rates 0.2, 0.4, 0.6, 0.8), block, subsequence and mixed missingness. Results are written to `runs/<data>/results.json`.
-
-## Results
-
-Full MSE / MAE results for all datasets, missingness patterns, and point-wise missingness rates are given in [results/main_results_full.md](results/main_results_full.md).
-
-Standard deviations of all reported results are given in [results/standard_deviations.md](results/standard_deviations.md).
