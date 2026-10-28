@@ -110,4 +110,4 @@ The model is trained once under point missingness (rate 0.5) and evaluated witho
 
 Full MSE / MAE results for all datasets, missingness patterns, and point-wise missingness rates are given in [results/main_results_full.md](results/main_results_full.md).
 
-Standard deviations of all reported results are given in [results/standard_deviations.md](results/standard_deviations.md), with CSV versions in [results/sd_main_results.csv](results/sd_main_results.csv) and [results/sd_ablation.csv](results/sd_ablation.csv).
+Standard deviations of all reported results are given in [results/standard_deviations.md](results/standard_deviations.md).
