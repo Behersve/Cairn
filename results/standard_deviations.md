@@ -11,7 +11,7 @@
 
 ### Point-wise missingness (average over rates 0.2, 0.4, 0.6, and 0.8)
 
-| Dataset | Cairn (Ours) | HELIX | PSW-I | TimeMixer++ | ImputeFormer | ModernTCN | iTransformer | SAITS | PatchTST | TimesNet | DLinear | BRITS |
+| Dataset | Cairn (Ours) | HELIX | PSW-I | GRIN | ImputeFormer | ModernTCN | iTransformer | SAITS | PatchTST | TimesNet | DLinear | BRITS |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | ***Landslide*** | | | | | | | | | | | | |
 | TN15 | 0.000&nbsp;/&nbsp;0.001 | 0.001&nbsp;/&nbsp;0.002 | 0.000&nbsp;/&nbsp;0.000 | 0.003&nbsp;/&nbsp;0.004 | 0.005&nbsp;/&nbsp;0.004 | 0.000&nbsp;/&nbsp;0.000 | 0.000&nbsp;/&nbsp;0.000 | 0.013&nbsp;/&nbsp;0.007 | 0.000&nbsp;/&nbsp;0.001 | 0.002&nbsp;/&nbsp;0.002 | 0.001&nbsp;/&nbsp;0.001 | 0.008&nbsp;/&nbsp;0.005 |
