@@ -31,7 +31,7 @@
 
 ### Block missingness
 
-| Dataset | Cairn (Ours) | HELIX | PSW-I | TimeMixer++ | ImputeFormer | ModernTCN | iTransformer | SAITS | PatchTST | TimesNet | DLinear | BRITS |
+| Dataset | Cairn (Ours) | HELIX | PSW-I | GRIN | ImputeFormer | ModernTCN | iTransformer | SAITS | PatchTST | TimesNet | DLinear | BRITS |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | ***Landslide*** | | | | | | | | | | | | |
 | TN15 | 0.001&nbsp;/&nbsp;0.001 | 0.002&nbsp;/&nbsp;0.004 | 0.001&nbsp;/&nbsp;0.001 | 0.006&nbsp;/&nbsp;0.005 | 0.002&nbsp;/&nbsp;0.001 | 0.001&nbsp;/&nbsp;0.001 | 0.002&nbsp;/&nbsp;0.002 | 0.028&nbsp;/&nbsp;0.014 | 0.001&nbsp;/&nbsp;0.001 | 0.002&nbsp;/&nbsp;0.002 | 0.001&nbsp;/&nbsp;0.001 | 0.063&nbsp;/&nbsp;0.030 |
@@ -51,7 +51,7 @@
 
 ### Subsequence missingness
 
-| Dataset | Cairn (Ours) | HELIX | PSW-I | TimeMixer++ | ImputeFormer | ModernTCN | iTransformer | SAITS | PatchTST | TimesNet | DLinear | BRITS |
+| Dataset | Cairn (Ours) | HELIX | PSW-I | GRIN | ImputeFormer | ModernTCN | iTransformer | SAITS | PatchTST | TimesNet | DLinear | BRITS |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | ***Landslide*** | | | | | | | | | | | | |
 | TN15 | 0.001&nbsp;/&nbsp;0.000 | 0.004&nbsp;/&nbsp;0.003 | 0.003&nbsp;/&nbsp;0.002 | 0.028&nbsp;/&nbsp;0.012 | 0.006&nbsp;/&nbsp;0.003 | 0.007&nbsp;/&nbsp;0.005 | 0.005&nbsp;/&nbsp;0.003 | 0.018&nbsp;/&nbsp;0.008 | 0.004&nbsp;/&nbsp;0.003 | 0.001&nbsp;/&nbsp;0.001 | 0.005&nbsp;/&nbsp;0.003 | 0.055&nbsp;/&nbsp;0.022 |
@@ -71,7 +71,7 @@
 
 ### Mixed random missingness
 
-| Dataset | Cairn (Ours) | HELIX | PSW-I | TimeMixer++ | ImputeFormer | ModernTCN | iTransformer | SAITS | PatchTST | TimesNet | DLinear | BRITS |
+| Dataset | Cairn (Ours) | HELIX | PSW-I | GRIN | ImputeFormer | ModernTCN | iTransformer | SAITS | PatchTST | TimesNet | DLinear | BRITS |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | ***Landslide*** | | | | | | | | | | | | |
 | TN15 | 0.002&nbsp;/&nbsp;0.001 | 0.013&nbsp;/&nbsp;0.008 | 0.010&nbsp;/&nbsp;0.005 | 0.017&nbsp;/&nbsp;0.007 | 0.002&nbsp;/&nbsp;0.001 | 0.005&nbsp;/&nbsp;0.004 | 0.005&nbsp;/&nbsp;0.003 | 0.024&nbsp;/&nbsp;0.011 | 0.006&nbsp;/&nbsp;0.004 | 0.004&nbsp;/&nbsp;0.003 | 0.006&nbsp;/&nbsp;0.004 | 0.015&nbsp;/&nbsp;0.009 |
