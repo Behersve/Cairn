@@ -1,4 +1,4 @@
-# Cairn: Observation-Anchored Fusion for Multivariate Time-Series Imputation
+# Cairn: Observation-Anchored Calibrated Fusion for Multivariate Time-Series Imputation under Missingness-Pattern Shift
 
 Cairn is a multivariate time-series imputer for settings where missingness patterns differ between training and deployment. This repository contains the implementation, processed landslide monitoring datasets, and experimental results.
 
