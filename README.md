@@ -1,5 +1,13 @@
 # Cairn: Observation-Anchored Fusion for Multivariate Time-Series Imputation
 
+Cairn is a multivariate time-series imputer for settings where missingness patterns differ between training and deployment. This repository contains the implementation, processed landslide monitoring datasets, and experimental results.
+
+## Method Overview
+
+![Cairn architecture showing observation-aware embedding, measurement-anchored attention, measurement-conditioned estimation, and calibrated precision fusion](assets/cairn-framework.png)
+
+The temporal backbone estimates missing values using attention anchored to observed time steps. Cairn then uses observations from other variables at the same time step to refine the estimate, with a correction weight calibrated within the current window.
+
 ## Results
 
 - [Full results](results/main_results_full.md): MSE / MAE for all datasets, missingness patterns, and point-wise missingness rates.
