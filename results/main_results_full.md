@@ -6,7 +6,7 @@
 - Cairn and all baselines are trained on point-wise missingness at rate 0.5; every other condition is evaluated zero-shot from the trained checkpoints.
 - ETTh Avg. and ETTm Avg. are the means of their two member datasets.
 
-## Part 1. Results reported in Table 2 of the paper
+## Part 1. Main benchmark comparisons
 
 ### Point-wise missingness (average over rates 0.2, 0.4, 0.6, and 0.8)
 

@@ -11,7 +11,7 @@ The temporal backbone estimates missing values using attention anchored to obser
 ## Results
 
 - [Full results](results/main_results_full.md): MSE / MAE for all datasets, missingness patterns, and point-wise missingness rates.
-- [Standard deviations](results/standard_deviations.md): SDs over five runs for the results in Tables 2 and 3 of the paper.
+- [Standard deviations](results/standard_deviations.md): Standard deviations over five runs with different random seeds for the main benchmark results (MSE and MAE) and the component ablation results (MSE).
 
 ## Environment
 

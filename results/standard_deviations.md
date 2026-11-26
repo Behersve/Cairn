@@ -1,13 +1,13 @@
 # Standard Deviations of Reported Results
 
 - All standard deviations (SD) are computed over five runs with different random seeds.
-- Part 1 corresponds to Table 2 of the paper; each cell reports **SD of MSE / SD of MAE**.
-- Part 2 corresponds to Table 3 of the paper; each cell reports the SD of MSE.
+- Part 1 covers the main benchmark comparisons. Each cell reports **SD of MSE / SD of MAE**.
+- Part 2 covers the component ablation. Each cell reports the SD of MSE.
 - *Landslide*: the six landslide monitoring datasets; *Public*: the nine public datasets.
 - For point-wise missingness, MSE and MAE are first averaged over the four test-time rates (0.2, 0.4, 0.6, and 0.8) within each run, and the SD is computed over runs.
 - ETTh Avg. and ETTm Avg. average their two member datasets within each run before the SD is computed.
 
-## Part 1. SD for Table 2 of the paper
+## Part 1. Main benchmark comparisons
 
 ### Point-wise missingness (average over rates 0.2, 0.4, 0.6, and 0.8)
 
@@ -89,7 +89,7 @@
 | PEMS03 | 0.001&nbsp;/&nbsp;0.001 | 0.002&nbsp;/&nbsp;0.002 | 0.009&nbsp;/&nbsp;0.009 | 0.003&nbsp;/&nbsp;0.003 | 0.011&nbsp;/&nbsp;0.007 | 0.011&nbsp;/&nbsp;0.006 | 0.011&nbsp;/&nbsp;0.013 | 0.005&nbsp;/&nbsp;0.003 | 0.005&nbsp;/&nbsp;0.003 | 0.017&nbsp;/&nbsp;0.010 | 0.005&nbsp;/&nbsp;0.003 | 0.001&nbsp;/&nbsp;0.001 |
 | ItalyAir | 0.005&nbsp;/&nbsp;0.003 | 0.006&nbsp;/&nbsp;0.005 | 0.011&nbsp;/&nbsp;0.006 | 0.008&nbsp;/&nbsp;0.005 | 0.011&nbsp;/&nbsp;0.008 | 0.026&nbsp;/&nbsp;0.014 | 0.006&nbsp;/&nbsp;0.006 | 0.015&nbsp;/&nbsp;0.011 | 0.003&nbsp;/&nbsp;0.002 | 0.030&nbsp;/&nbsp;0.017 | 0.011&nbsp;/&nbsp;0.005 | 0.009&nbsp;/&nbsp;0.006 |
 
-## Part 2. SD for Table 3 (ablation) of the paper
+## Part 2. Component ablation
 
 Each dataset entry is the SD of the MSE averaged over the four missingness patterns; Avg. is the SD of the MSE averaged over the six landslide datasets.
 
