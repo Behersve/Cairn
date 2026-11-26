@@ -1,6 +1,6 @@
 # Cairn: Observation-Anchored Calibrated Fusion for Multivariate Time-Series Imputation under Missingness-Pattern Shift
 
-Cairn is a multivariate time-series imputer for settings where missingness patterns differ between training and deployment. This repository contains the implementation, processed landslide monitoring datasets, and experimental results.
+Cairn is a multivariate time-series imputer for settings where missingness patterns differ between training and deployment. This repository contains the implementation, five processed landslide monitoring datasets, and experimental results.
 
 ## Method Overview
 
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## Data
 
-`dataset/` contains the six landslide monitoring datasets used in the paper. Each file is a processed version of the original records, with native missing values kept as missing. If you use these data, please cite the original sources below and follow their licenses.
+`dataset/` contains five of the six landslide monitoring datasets used in the paper. Each file is a processed version of the original records, with native missing values kept as missing. If you use these data, please cite the original sources below and follow their licenses.
 
 | File | Site | Source | License |
 |---|---|---|---|
@@ -30,7 +30,14 @@ pip install -r requirements.txt
 | `PSMH.csv` | Hörnligrat, Matterhorn, Switzerland | Weber and Beutel [4] | CC BY 4.0 |
 | `TT60.csv` | Two Towers, California, USA | U.S. Geological Survey [5] | Public domain |
 | `TN15.csv` | Toro Negro, Puerto Rico | U.S. Geological Survey [6] | Public domain |
-| `XP60.csv` | Xinpu, China | Source details withheld for anonymous review | — |
+
+### XP60 (Xinpu, China)
+
+The GNSS observations used for XP60 come from Zhang Qin, Huang Guanwen, Du Yuan, and Bai Zhengwei (2022), Chang'an University, *GNSS original observation data set of Xinpu landslide in Three Gorges from 2019 to 2021*. The National Earth Observation Data Center (NODA) record covers December 2019 to December 2021.
+
+1. Open the [official dataset record](https://doi.org/10.11878/db.202206.006947), or search the [NODA data portal](https://noda.ac.cn/datasharing) for CSTR `10441.0.202206.006947`.
+2. Sign in or register with NODA. The record lists **Apply offline** as its access method. Follow the application instructions on the record to request the original files under the provider's terms.
+3. Use the files supplied by NODA as the raw GNSS source. The Cairn loader expects a processed hourly CSV with a `date` column at `dataset/XP60.csv`. The raw download requires preprocessing, and this repository does not distribute the prepared XP60 CSV.
 
 ### References
 
@@ -105,11 +112,13 @@ Train on one dataset and evaluate it under all missingness patterns:
 python train.py --data TN15
 ```
 
-Train and evaluate on all six datasets:
+Train and evaluate on the five datasets included in the repository:
 
 ```bash
 bash run_all.sh
 ```
+
+If you have a prepared local `dataset/XP60.csv`, run `python train.py --data XP60`.
 
 Evaluate a trained checkpoint:
 
