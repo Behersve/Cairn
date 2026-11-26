@@ -104,6 +104,20 @@ The GNSS observations used for XP60 come from Zhang Qin, Huang Guanwen, Du Yuan,
 
 </details>
 
+### Public benchmarks
+
+The paper also evaluates Cairn on nine public time-series benchmarks. Obtain the data from the sources below. The commands in [Usage](#usage) cover the landslide datasets.
+
+| Dataset | Description | Source and access |
+|---|---|---|
+| ETTh1, ETTh2 | Hourly electricity-transformer measurements from two sites | [Informer authors' ETT-small release](https://github.com/zhouhaoyi/ETDataset/tree/main/ETT-small). Download `ETTh1.csv` and `ETTh2.csv`. |
+| ETTm1, ETTm2 | 15-minute electricity-transformer measurements from the same two sites | [Informer authors' ETT-small release](https://github.com/zhouhaoyi/ETDataset/tree/main/ETT-small). Download `ETTm1.csv` and `ETTm2.csv`. |
+| ECL | Electricity consumption | [UCI ElectricityLoadDiagrams20112014](https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014) for the original series. The [Autoformer benchmark bundle](https://github.com/thuml/Autoformer#get-started) provides an hourly CSV. |
+| Exchange | Daily currency exchange rates | [Lai et al. data release](https://github.com/laiguokun/multivariate-time-series-data/tree/master/exchange_rate). Download and extract `exchange_rate.txt.gz`. |
+| ILI | Weekly U.S. influenza-like illness surveillance series | [Autoformer benchmark bundle](https://github.com/thuml/Autoformer#get-started). Extract `national_illness.csv` from the ILI data. |
+| PEMS03 | Traffic flow measured by California freeway sensors | [STSGCN authors' data release](https://github.com/Davidham3/STSGCN#stsgcn-pytorch). Follow the dataset link and select PEMS03. |
+| ItalyAir | Hourly air-quality measurements from an Italian city | [UCI Air Quality](https://archive.ics.uci.edu/dataset/360/air%2Bquality). Download `AirQualityUCI.csv` and treat the documented `-200` sentinel as missing. |
+
 ## Usage
 
 Train on one dataset and evaluate it under all missingness patterns:
